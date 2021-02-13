@@ -1,4 +1,6 @@
-FROM centos:8
+ARG ARCH=
+FROM ${ARCH}centos:8
+
 MAINTAINER Sean Cline <smcline06@gmail.com>
 
 ## --- SUPPORTING FILES ---
